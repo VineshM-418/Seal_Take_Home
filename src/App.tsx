@@ -28,11 +28,6 @@ const App: React.FC = () => {
           .filter((rowIndex) => !isNaN(rowIndex)) // Ensure it's a valid number
       ) + 1;
 
-  const extractColumnReferences = (equation: string): string[] => {
-    const regex = /c\d+/g; // Matches column identifiers like c1, c2, etc.
-    return equation.match(regex) || [];
-  };
-
   const parseAndEvaluateEquation = (
     equation: string,
     data: { [key: string]: number },
