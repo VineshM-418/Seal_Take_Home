@@ -17,8 +17,7 @@
   - Improve the 'Column Aggerations' so it works on some highlighted cells, not just the whole column. Maybe base the sub columns on time values.
 
 ## How to have 'rate of ' calculations
-Would implement rate of change = Δx / Δy = (x_2 − x_1)/(y_2−y_1)
-​where the y would be the time column and x would be the quantity of interest. Would be a special case of the calculation column.
+Would implement rate of change = Δx / Δy = (x_2 − x_1)/(y_2−y_1) ​where the y would be the time column and x would be the quantity of interest. Would be a special case of the calculation column.
  
 ​
 
